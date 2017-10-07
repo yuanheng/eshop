@@ -1,0 +1,185 @@
+/* pages/detail/goodsDetail.wxss */
+.goods-detail-content{
+  background-color: #e8e8ed;
+  color: #333333;
+  font-size: 30rpx;
+}
+
+.slide-image{
+  display: block;
+}
+.goods-desc-box{
+  padding:10rpx; 
+  background-color:#fff;  
+}
+.goods-label-box{
+  background-color: #fff;
+}
+.goods-label-box .goods-lable-content{
+  
+  margin-top:20rpx; 
+  padding:20rpx;
+  display: flex;
+  align-items: center;
+}
+.goods-label-box .label-title{
+  margin-right:20rpx; 
+  
+  display: inline-block;
+}
+.sale-label-box{
+  flex: 1;
+}
+.sale-label{
+  font-size:25rpx;
+  padding-left:10rpx;
+  padding-right:10rpx;  
+  margin-right: 20rpx; 
+  color: #e4393c;
+  border: 1rpx solid #e4393c;
+  border-radius: 6rpx;
+}
+.navigator-arrow{
+  position: relative;
+}
+.navigator-arrow:after {
+  position: absolute;
+  content: " ";
+  display: inline-block;
+  height: 20rpx;
+  width: 20rpx;
+  border-width: 0 4rpx 4rpx 0;
+  border-color: #888888;
+  border-style: solid;
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  top: 40%;
+  margin-top: -20rpx;
+  right: 20rpx;
+}
+.purchase-label-box{
+  flex: 1;
+}
+.purchase-label-box text{
+  margin-right: 20rpx;
+}
+.goods-lable-hidde{
+  height: 0;
+  overflow: hidden;
+  padding-right:10rpx; 
+}
+.goods-lable-show{
+  height: auto;
+}
+.goods-lable-hidde-item{
+  padding-left: 20rpx;
+  display: flex;
+  align-items: center;
+  border-top: 1rpx solid #eeeeee;
+  padding-top:20rpx;
+  padding-bottom: 20rpx; 
+  flex-direction:row;
+}
+.hidden-item-title{
+  border: 1rpx solid #e4393c;
+  color: #e4393c;
+  padding: 0 10rpx;
+  border-radius:5rpx;
+  width: 70rpx;
+  text-align: center;
+ 
+
+}
+.hidden-item-desc{
+  margin-left: 20rpx;
+
+}
+.goods-detail-box{
+  display: flex;
+  
+}
+.goods-detail-box view{
+  margin-top:20rpx; 
+  background-color: #fff;
+  padding: 20rpx;
+  flex:1.0;
+  text-align: center;
+  border-bottom: 1rpx solid #dddddd;
+}
+.detail-hover{
+  color:#e4393c;
+  border-bottom: 4rpx solid #e4393c!important;
+}
+
+.goode-deatil-info{
+  background-color: #fff;
+  padding-top:10rpx;
+}
+.goode-deatil-info image{
+  display: block;
+  margin-bottom: 10rpx;
+}
+.space-content{
+  height: 100rpx;
+  width: 100%;
+  background-color: #fff;
+
+}
+.bottom-btn-box{
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+  text-align: center;
+  display: flex;
+  font-size: 35rpx;
+}
+.car-box{
+  flex: 0.4;
+  background-color: #fff;
+}
+.car-box image{
+  height: 60rpx;
+  width: 60rpx;
+  position: relative;
+}
+.car-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+.car-box .car-text{
+  font-size:20rpx;
+  color: #808080; 
+}
+.car-add-box{
+  flex: 1;
+  background-color: #ffb03f;
+  color: #fff;
+  padding-top: 25rpx;
+  padding-bottom: 25rpx;
+}
+.car-image-box{
+  display: flex;
+  justify-content: center;
+}
+.goods-buy-box{
+  padding-top: 25rpx;
+  padding-bottom: 25rpx;
+  flex: 1;
+  background-color: #f23030;
+  color: #fff;
+}
+.goods-num{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 30rpx;
+  width: 30rpx;
+  background-color: #f23030;
+  color: #fff;
+  font-size: 25rpx;
+  line-height: 30rpx;
+  border-radius: 15rpx;
+}

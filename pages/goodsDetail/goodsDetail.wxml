@@ -1,0 +1,103 @@
+<view class="goods-detail-content">
+  <swiper style="height:{{imageWidth}}px" indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image style='width:{{imageWidth}}px;height:{{imageWidth}}px;display:block'  src="{{item}}" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='goods-desc-box'>
+      <text>阿帕琦IK手表镂空全自动夜光机械表男表防水商务韩版时尚休闲腕表学生运动男士手表新款金边白面金机心手表</text>
+      
+  </view>
+  <view class='goods-label-box'>
+    <view class='goods-lable-content'  bindtap='showHide'>
+      <text class='label-title'>促销</text>
+      <view class="sale-label-box">
+        <text class='sale-label'>限购</text>
+        <text class='sale-label'>限制</text>
+        <text class='sale-label'>多买优惠</text>
+      </view>
+      <view class='navigator-arrow'></view>
+    </view>
+    <view class="goods-lable-hidde {{show ? 'goods-lable-show' : ''}}">
+      <view class='goods-lable-hidde-item'>
+        <view>
+          <view class='hidden-item-title'>限购</view>
+        </view>
+        <view class='hidden-item-desc'>购买不超过20件时享受优惠，超出数量我们不知道到底会怎么样</view>
+      </view>
+      <view class='goods-lable-hidde-item'>
+        <view >
+          <view class='hidden-item-title'>满减</view>
+        </view>
+        <view class='hidden-item-desc'>精美茶具工艺壶 西施壶 德化陶瓷砂壶约180M</view>
+      </view>
+      <view class='goods-lable-hidde-item'>
+        <view >
+          <view class='hidden-item-title'>限制</view>
+        </view>
+        <view class='hidden-item-desc'>满44元另加9.90元，或满55元另加11.90元，或满66元另加39.90元，即可在购物车</view>
+      </view>
+    </view>
+  </view>
+  <view class='goods-label-box'>
+    <view class='goods-lable-content'>
+      <text class='label-title'>已选</text>
+      <view class="purchase-label-box">
+        <text >白盘</text>
+        <text >棕带</text>
+        <text >男表，</text>
+        <text >1个</text>
+      </view>
+      <view class='navigator-arrow'></view>
+    </view>
+    <view class='goods-lable-hidde'>
+    </view>
+  </view>
+  <view class='goods-label-box'>
+    <view class='goods-lable-content'>
+      <text class='label-title'>地址</text>
+      <view class="purchase-label-box">
+        <text >北京市</text>
+        <text >海淀区</text>
+        <text >回龙观新村东区</text>
+      </view>
+      <view class='navigator-arrow'></view>
+    </view>
+  </view>
+  <view class='goods-label-box'>
+    <view class='goods-lable-content'>
+      <text class='label-title'>天王表旗舰店京东自营</text> 
+    </view>
+  </view>
+ <view class='goods-detail-box'>
+    <view class='detail-hover'>商品介绍</view>
+    <view>规格参数</view>
+    <view>售后保障</view>
+ </view>
+ <view class='goode-deatil-info'>
+    <image data-id='1' style="width: {{imagewidth1}}px; height: {{imageheight1}}px;"  src="{{imageDetailUrl}}" bindload="imageLoad"></image>
+     <image data-id='2' style="width: {{imagewidth2}}px; height: {{imageheight2}}px;"  src="{{imageDetailUrl2}}" bindload="imageLoad"></image>
+      <image data-id='3' style="width: {{imagewidth3}}px; height: {{imageheight3}}px;"  src="{{imageDetailUrl3}}" bindload="imageLoad"></image>
+       <image data-id='4' style="width: {{imagewidth4}}px; height: {{imageheight4}}px;"  src="{{imageDetailUrl4}}" bindload="imageLoad"></image>
+    
+ </view>
+ <view class='space-content'>
+ </view>
+ <view class='bottom-btn-box'>
+      <view class='car-box'>
+        <view class='car-image-box'>
+          <image src='/images/car2.png'>
+             <text class='goods-num'>2</text>
+          </image>
+         
+        </view>
+        <text class='car-text'>购物车</text>
+      
+      </view>
+      <view class='car-add-box'>加入购物车</view>
+      <view class='goods-buy-box'>立即购买</view>
+ </view>
+</view>

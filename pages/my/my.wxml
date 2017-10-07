@@ -1,0 +1,33 @@
+<view class='my-page' style='height:{{screenHeight}}px'>
+  <view class='header'>
+      <view class='header-icon'>
+        <image src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      </view>
+      <view class='account-info'>
+        <view class='nickname'>{{userInfo.nickName}}</view>
+        <view class='accountname'>账号:dingbaosheng</view>
+      </view>
+  </view>
+  <view class='my-content'>
+    <view class='my-item'>
+        <image class='icon' src='/images/order.png'></image>
+        <view>全部订单</view>
+        <image class='nav' src='/images/nav.png'></image>
+    </view>
+    <view class='my-item border-top'>
+        <image class='icon' src='/images/pre-order.png'></image>
+        <view>待付款</view>
+        <image class='nav' src='/images/nav.png'></image>
+    </view>
+    <view class='my-item border-top'>
+        <image class='icon' src='/images/pre-accept.png'></image>
+        <view>待收货</view>
+        <image class='nav' src='/images/nav.png'></image>
+    </view>
+    <view class='my-item border-top'>
+        <image class='icon' src='/images/shouhou.png'></image>
+        <view>售后订单</view>
+        <image class='nav' src='/images/nav.png'></image>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,126 @@
+/**index.wxss**/
+.container{
+  background-color: #ffffff;
+}
+.header{
+  height: 255rpx;
+  background-color: #c81623;
+  flex-direction: column;
+  align-items: center;
+
+}
+.logo image{  
+  display: block;
+  width: 350rpx;
+  height: 120rpx;
+  margin: 0 auto;
+}
+.search-box{
+  display: flex;
+  position: relative;
+  width: 90%;
+  height: 70rpx;
+  background-color:#fff;
+  margin-left:auto; 
+  margin-right: auto; 
+  margin-top:40rpx;
+  border-radius:40rpx;  
+  align-items: center;
+  text-align: center;
+}
+.search-box input{
+  font-size:30rpx;
+  width: 100%
+}
+.app-center-box{
+   padding-top: 20rpx;
+   display: flex;
+   justify-content: space-between;
+   background-color: #ffffff;
+}
+.app-center-item{
+  width: 200rpx;
+  height: 160rpx;
+  text-align: center;
+  color: #6d6d6d;
+  display: flex;
+  flex-direction: column;
+  font-size: 25rpx;
+}
+.app-center-item image{
+  width: 90rpx;
+  height: 90rpx;
+  margin: 0 auto;
+}
+.splite-box{
+  width: 100%;
+  height: 20rpx;
+  background-color: #e8e8ed;
+}
+.goods-box{
+  margin-top: 20rpx;
+  width: 94%;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom:10rpx; 
+  
+}
+.goods-box .goods-item {
+  padding: 12rpx;
+  display: flex;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1rpx solid #f6f6f6;
+  border-bottom: 15rpx solid #f3f3f3;
+}
+.goods-box .goods-item .goods-image image{
+  width: 220rpx;
+  height: 220rpx;
+  background-color: red;
+  display: block;
+}
+.goods-detail{
+  margin-left: 20rpx;
+  font-size: 30rpx;
+}
+.goods-detail .goods-title{
+    color: #333333;
+    
+    line-height: 40rpx;
+    height: 80rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    display: box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-word;
+}
+
+.goods-prices-now{
+   color: #e4393c;
+}
+
+.goods-prices-old{
+  font-size: 26rpx;
+  color: #999999;
+  margin-left: 30rpx;
+  text-decoration:line-through;
+}
+
+.goods-stock{
+  color:#666666;
+  display: flex;
+  font-size:22rpx; 
+}
+.goods-stock-progress{
+  width: 200rpx;
+  margin-left: 20rpx;
+  border-radius: 20rpx;
+}
+.goods-btn button{
+  margin-top: 10rpx;
+  background-color: #f46467;
+  color: #fff;
+}

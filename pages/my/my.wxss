@@ -1,0 +1,63 @@
+/* pages/my/my.wxss */
+.my-page{
+  background-color: #e8e8ed;
+}
+.header {
+  padding: 20rpx;
+  width: 100%;
+  background-color: #e45050;
+  display: flex;
+  align-items: center;
+}
+.header-icon{
+  margin-left: 20rpx;
+  height: 150rpx;
+  width: 150rpx;
+  margin-right: 20rpx;
+  display: flex;
+  align-items: center;
+}
+.header-icon image{
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+  border: 5rpx solid #b64040;
+}
+.nickname{
+  color: #fff;
+}
+.accountname{
+  padding: 10rpx 0;
+  color: #f7cbcb;
+  font-size: 30rpx;
+}
+.my-content{
+  margin-top: 20rpx;
+  background-color: #fff;
+  font-size: 35rpx;
+  color: #333333;
+  padding-left: 30rpx;
+}
+.my-item{
+  padding: 20rpx 0;
+  display: flex;
+  align-items: center;
+  
+}
+.border-top{
+  border-top: 1rpx solid #eeeeee;
+}
+.my-item .icon{
+  height: 60rpx;
+  width: 60rpx;
+  
+}
+.my-item view{
+  flex: 1;
+  margin-left: 20rpx;
+}
+.nav{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 10rpx;
+}

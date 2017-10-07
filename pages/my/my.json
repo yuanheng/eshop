@@ -1,0 +1,32 @@
+{
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTitleText": "我的",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": false,
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#e33141",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index_selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/car/carDetail",
+        "text": "购物车",
+        "iconPath": "images/car.png",
+        "selectedIconPath": "images/car_selected.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my_selected.png"
+      }
+    ]
+  }
+}

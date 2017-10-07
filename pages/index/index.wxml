@@ -1,0 +1,52 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="header">
+      <view class='logo'>
+        <image src='/images/logo.png'></image>
+      </view>
+      <view class='search-box'>
+          <input placeholder='搜索商品' placeholder-style='color:#cccccc'  disabled='true'></input>
+      </view>    
+  </view>
+  <view class='app-center-box'>
+      <view class='app-center-item'>
+        <image src='/images/youhuijuan.png'></image>
+        <text>领优惠券</text>
+      </view>
+       <view class='app-center-item'>
+        <image src='/images/wuliu.png'></image>
+        <text>领优惠券</text>
+      </view>
+       <view class='app-center-item'>
+         <image src='/images/fenlei.png'></image>
+        <text>领优惠券</text>
+      </view>
+  </view>
+  <view class='splite-box'>
+  </view>
+  <view class='goods-box'>
+    <view bindtap="goodsDetail" data-id='{{item.id}}' class='goods-item' wx:for="{{goodsInfos}}">
+      <view class='goods-image'>
+        <image src='{{item.image}}'></image>
+      </view>
+      <view class='goods-detail'>
+        <view class='goods-title'>
+          {{item.title}}
+          </view>
+        <view class='goods-prices'>
+          <text class="goods-prices-now">￥{{item.priceNow}}</text>
+          <text class='goods-prices-old'>￥{{item.priceOld}}</text>
+        </view>
+        <view class='goods-stock'>
+          <text>已售{{item.percent}}%</text>
+          <progress class='goods-stock-progress' percent="{{item.percent}}" stroke-width="10" color='#ec7476' backgroundColor="#ebebeb" />
+        </view>
+        <view class='goods-btn'>
+          <button size='mini'>立即抢购</button>
+        </view>
+
+      </view>
+    </view>
+    
+  </view>
+</view>

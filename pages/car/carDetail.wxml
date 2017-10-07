@@ -1,0 +1,161 @@
+<view class='car-page'>
+    <view class='car-space'></view>
+    <view class='car-goods-box'>
+      <view class='car-item'>
+        <image src='/images/unselect.png' class='car-btn'></image>
+        <view class='car-title'>JD 京东自营</view>
+      </view>
+      <view class='car-item'>
+        <view>
+          <image src='/images/select.png' class='car-btn'></image>
+        </view>
+        <view>
+        <image src="/images/goods2.jpg" class='car-goods-image'></image>
+        </view>
+        <view class='car-title-box'>
+          <view class='goods-title'>
+            <view>卡西欧(CASIO)手表 EDIFICE系列休闲商务男士手表EFR-526D-1A</view>
+          </view>
+          <view class='goods-pro'>
+            <view>重量:0.25kg 颜色:时尚黑 EFR-526D-1A</view>
+          </view>
+          <view class='goods-price-btn'>
+            <view class='goods-price'>
+              ¥699.00
+            </view>
+            <view class='goods-btn'>
+                <view class='btn-image-box border-right'>
+                  <image src='/images/sub.png'></image>
+                </view>
+                <input class='goods-num' type='number' value='2'/>
+                <view class='btn-image-box border-left'>
+                  <image src='/images/plus.png'></image>
+                </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class='car-item'>
+        <view>
+          <image src='/images/select.png' class='car-btn'></image>
+        </view>
+        <view>
+        <image src="/images/goods2.jpg" class='car-goods-image'></image>
+        </view>
+        <view class='car-title-box'>
+          <view class='goods-title'>
+            <view>卡西欧</view>
+          </view>
+          <view class='goods-pro'>
+            <view>重量:0.25kg 颜色:时尚黑 EFR-526D-1A</view>
+          </view>
+          <view class='goods-price-btn'>
+            <view class='goods-price'>
+              ¥699.00
+            </view>
+            <view class='goods-btn'>
+                <view class='btn-image-box border-right'>
+                  <image src='/images/sub.png'></image>
+                </view>
+                <input class='goods-num' type='number' value='222'/>
+                <view class='btn-image-box border-left'>
+                  <image src='/images/plus.png'></image>
+                </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class='car-item'>
+        <view>
+          <image src='/images/unselect.png' class='car-btn'></image>
+        </view>
+        <view>
+        <image src="/images/goods2.jpg" class='car-goods-image'></image>
+        </view>
+        <view class='car-title-box'>
+          <view class='goods-title'>
+            <view>卡西欧(CASIO)手表 EDIFICE系列休闲商务男士手表EFR-526D-1A</view>
+          </view>
+          <view class='goods-pro'>
+            <view>重量:0.25kg 颜色:时尚黑 EFR-526D-1A</view>
+          </view>
+          <view class='goods-price-btn'>
+            <view class='goods-price'>
+              ¥699.00
+            </view>
+            <view class='goods-btn'>
+                <view class='btn-image-box border-right'>
+                  <image src='/images/sub.png'></image>
+                </view>
+                <input class='goods-num' value='2'/>
+                <view class='btn-image-box border-left'>
+                  <image src='/images/plus.png'></image>
+                </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class='car-item'>
+        <view>
+          <image src='/images/select.png' class='car-btn'></image>
+        </view>
+        <view>
+        <image src="/images/goods2.jpg" class='car-goods-image'></image>
+        </view>
+        <view class='car-title-box'>
+          <view class='goods-title'>
+            <view>卡西欧(CASIO)手表 EDIFICE系列休闲商务男士手表EFR-526D-1A</view>
+          </view>
+          <view class='goods-pro'>
+            <view>重量:0.25kg 颜色:时尚黑 EFR-526D-1A</view>
+          </view>
+          <view class='goods-price-btn'>
+            <view class='goods-price'>
+              ¥699.00
+            </view>
+            <view class='goods-btn'>
+                <view class='btn-image-box border-right'>
+                  <image src='/images/sub.png'></image>
+                </view>
+                <input class='goods-num' value='2'/>
+                <view class='btn-image-box border-left'>
+                  <image src='/images/plus.png'></image>
+                </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class='car-item'>
+        <view>
+          <image src='/images/select.png' class='car-btn'></image>
+        </view>
+        <view>
+        <image src="/images/goods2.jpg" class='car-goods-image'></image>
+        </view>
+        <view class='car-title-box'>
+          <view class='goods-title'>
+            <view>卡西欧(CASIO)手表 EDIFICE系列休闲商务男士手表EFR-526D-1A</view>
+          </view>
+          <view class='goods-pro'>
+            <view>重量:0.25kg 颜色:时尚黑 EFR-526D-1A</view>
+          </view>
+          <view class='goods-price-btn'>
+            <view class='goods-price'>
+              ¥699.00
+            </view>
+            <view class='goods-btn'>
+                <view class='btn-image-box border-right'>
+                  <image src='/images/sub.png'></image>
+                </view>
+                <input class='goods-num' value='2'/>
+                <view class='btn-image-box border-left'>
+                  <image src='/images/plus.png'></image>
+                </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      
+      
+    </view>
+</view>
